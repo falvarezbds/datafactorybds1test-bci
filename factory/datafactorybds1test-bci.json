@@ -9,6 +9,10 @@
 			"param_path": {
 				"type": "string",
 				"value": "/"
+			},
+			"param_limite": {
+				"type": "string",
+				"value": "100"
 			}
 		}
 	},
