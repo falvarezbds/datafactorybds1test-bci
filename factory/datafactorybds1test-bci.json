@@ -1,0 +1,9 @@
+{
+	"name": "datafactorybds1test-bci",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "54932845-860d-4730-a354-8c641bc2811b",
+		"tenantId": "7fd0e6b4-9603-4946-ae06-8a261b793e86"
+	}
+}
