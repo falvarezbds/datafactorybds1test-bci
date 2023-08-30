@@ -1,0 +1,85 @@
+{
+    "name": "DS_POC_060",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LNK_POC_060",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "customer.txt",
+                "folderPath": "Felipe",
+                "fileSystem": "ctr01"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": 1,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "1",
+                "type": "String"
+            },
+            {
+                "name": "FALSE",
+                "type": "String"
+            },
+            {
+                "name": "Mr.",
+                "type": "String"
+            },
+            {
+                "name": "Orlando",
+                "type": "String"
+            },
+            {
+                "name": "N.",
+                "type": "String"
+            },
+            {
+                "name": "Gee",
+                "type": "String"
+            },
+            {
+                "name": "Prop_6",
+                "type": "String"
+            },
+            {
+                "name": "A Bike Store",
+                "type": "String"
+            },
+            {
+                "name": "adventure-works\\pamela0",
+                "type": "String"
+            },
+            {
+                "name": "orlando0@adventure-works.com",
+                "type": "String"
+            },
+            {
+                "name": "245-555-0173",
+                "type": "String"
+            },
+            {
+                "name": "L/Rlwxzp4w7RWmEgXX+/A7cXaePEPcp+KwQhl2fJL7w=",
+                "type": "String"
+            },
+            {
+                "name": "1KjXYs4=",
+                "type": "String"
+            },
+            {
+                "name": "{3F5AE95E-B87D-4AED-95B4-C3797AFCB74F}",
+                "type": "String"
+            },
+            {
+                "name": "2005-08-01 00:00:00",
+                "type": "String"
+            }
+        ]
+    }
+}
