@@ -1,5 +1,13 @@
 {
 	"name": "datafactorybds1test-bci",
+	"properties": {
+		"globalParameters": {
+			"param_ambiente": {
+				"type": "string",
+				"value": "dev"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
