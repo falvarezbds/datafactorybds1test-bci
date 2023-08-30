@@ -5,6 +5,10 @@
 			"param_ambiente": {
 				"type": "string",
 				"value": "dev"
+			},
+			"param_path": {
+				"type": "string",
+				"value": "/"
 			}
 		}
 	},
